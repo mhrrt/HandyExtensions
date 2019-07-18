@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import HandyExtensions
+
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let text = "Count words in this text"
+        print("Word count for text object is:\(text.wordCount)")
     }
 
     override func didReceiveMemoryWarning() {
