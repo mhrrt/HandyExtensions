@@ -16,6 +16,7 @@ extension String {
         return word.count
     }
     
+    
     public var charCount: Int {
         let characterSet = CharacterSet.whitespacesAndNewlines
         let component = self.components(separatedBy: characterSet)
